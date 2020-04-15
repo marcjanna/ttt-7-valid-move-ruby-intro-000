@@ -10,8 +10,9 @@ end
 def between?(board,index)
 if index.between?(0, 8) == true
   return false
-else
-  return true
+elsif
+index.between?(0, 8) == false
+  return false
 end
 end
 
