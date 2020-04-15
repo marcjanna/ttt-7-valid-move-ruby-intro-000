@@ -9,8 +9,8 @@ end
 end
 
 def between?(board,index)
-if index.between?(0, 8)
-  return true
+if index.between?(0, 8) == false
+  return false
 end
 end
 
