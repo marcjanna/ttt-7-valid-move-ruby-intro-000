@@ -8,7 +8,7 @@ return true
 end
 end
 def between?(board,index)
-if index.between?(0, 8) && 
+if index.between?(0, 8) &&
   return true
 end
 end
